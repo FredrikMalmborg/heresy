@@ -2,17 +2,14 @@ import {makeStyles} from "@material-ui/core/styles"
 
 const useStyles = makeStyles((theme) => ({
     layout: {
-        width:"calc(100% - 1rem)",
-
-        // padding:"1rem",
+        width:"100%",
         
         
         "& > *": {
             width:"inherit",
-            height:"100vh",
-            margin:"1rem",
 
-            background:"#ee7ab0",
+            background:"#222",
+            border:".5rem solid #ff8844",
 
             display:"flex",
             justifyContent: "center",
