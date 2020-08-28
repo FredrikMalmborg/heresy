@@ -8,12 +8,8 @@ const useStyles = makeStyles((theme) => ({
         "& > *": {
             width:"inherit",
 
-            background:"#222",
-            border:".5rem solid #ff8844",
+            background:"#e1e1e1",
 
-            display:"flex",
-            justifyContent: "center",
-            alignItems: "center",
         }
     }
 

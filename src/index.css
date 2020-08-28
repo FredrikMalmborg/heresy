@@ -16,3 +16,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: PhosSul;
+  src: url("./assets/fonts/PHOSS_.ttf");
+}
+
+#PhosSul {
+  font-family: "PhosSul";
+}
