@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/heresy/static/css/main.60a5f816.chunk.css",
+    "main.js": "/heresy/static/js/main.6b29c603.chunk.js",
+    "main.js.map": "/heresy/static/js/main.6b29c603.chunk.js.map",
+    "runtime-main.js": "/heresy/static/js/runtime-main.ffd6c362.js",
+    "runtime-main.js.map": "/heresy/static/js/runtime-main.ffd6c362.js.map",
+    "static/js/2.029323c4.chunk.js": "/heresy/static/js/2.029323c4.chunk.js",
+    "static/js/2.029323c4.chunk.js.map": "/heresy/static/js/2.029323c4.chunk.js.map",
+    "index.html": "/heresy/index.html",
+    "precache-manifest.0dd5fc693f0aa493a40a98ce4c904030.js": "/heresy/precache-manifest.0dd5fc693f0aa493a40a98ce4c904030.js",
+    "service-worker.js": "/heresy/service-worker.js",
+    "static/css/main.60a5f816.chunk.css.map": "/heresy/static/css/main.60a5f816.chunk.css.map",
+    "static/js/2.029323c4.chunk.js.LICENSE.txt": "/heresy/static/js/2.029323c4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/heresy/static/media/PHOSS_.51a62639.ttf",
+    "static/media/cross.svg": "/heresy/static/media/cross.b2c5da73.svg",
+    "static/media/heresy_logo_emblem.svg": "/heresy/static/media/heresy_logo_emblem.a8837da5.svg",
+    "static/media/heresy_logo_header.svg": "/heresy/static/media/heresy_logo_header.050bc33b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffd6c362.js",
+    "static/js/2.029323c4.chunk.js",
+    "static/css/main.60a5f816.chunk.css",
+    "static/js/main.6b29c603.chunk.js"
+  ]
+}
