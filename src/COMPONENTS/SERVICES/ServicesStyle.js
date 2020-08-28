@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
         
 
         display:"flex",
-        // alignItems:"center",
+        alignItems:"center",
 
         textTransform:"capitalize",
         fontSize:"8rem",
@@ -60,6 +60,8 @@ const useStyles = makeStyles((theme) => ({
         
     },
     option: {
+        position:"relative",
+
         width:"40%",
 
         display:"flex",
@@ -70,14 +72,37 @@ const useStyles = makeStyles((theme) => ({
         fontSize:"7rem",
         color:"#e1e1e1",
 
-        border:"0rem solid #e1e1e1",
+        border:"1rem solid #111b16",
+
         transition:"ease .2s",
         cursor:"pointer",
         
+        "& > p": {
+            pointerEvents:"none",
+
+            width:"100%",
+            height:"100%",
+            textAlign:"center",
+
+            background:"#111b16"
+        },
+
         [theme.breakpoints.up(1100)]: {
             "&:hover": {
                 transition:"ease .2s",
-                border:"1rem double #e1e1e1"
+                border:"1rem solid #f26c4f",
+
+                "&::before": {
+                    content:"''",
+                    display:"block",
+
+                    position:"absolute",
+
+                    width:"100%",
+                    height:"100%",
+
+                    border:".5rem solid #e1e1e1",
+                }
             },       
         },
 
@@ -86,24 +111,7 @@ const useStyles = makeStyles((theme) => ({
             display:"block",
             paddingBottom:"100%",
             fontSize:"0",
-        },
-
-        "& > div": {
-            width:"100%",
-            height:"100%",
-
-            background:"#111b16",
-            fontSize:"7rem",
-            color:"#e1e1e1",
-    
-            display:"flex",
-            justifyContent:"center",
-            alignItems:"center",
-
-            "&:hover": {
-                transition:"ease .2s",
-                transform:"scale(.8)"
-            },  
+        
         },
         [theme.breakpoints.down(1024)]: {
            width:"20%",
@@ -239,6 +247,26 @@ const useStyles = makeStyles((theme) => ({
             color:"#111b16"
 
         }
+    },
+
+    active: {
+        border:"1rem solid #f26c4f",
+        background:"#111b16",
+
+        transition:"ease .2s",
+        cursor:"pointer",
+        
+        "&::before": {
+            content:"''",
+            display:"block",
+
+            position:"absolute",
+
+            width:"100%",
+            height:"100%",
+
+            border:".5rem solid #e1e1e1",
+        },
     }
 })) 
 
